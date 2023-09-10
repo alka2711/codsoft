@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to your elements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url(sectionbackground.jpg);
+}
+
+header {
+    background-image: url('headerbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+header p{
+    color: #ced2d4;
+}
+#about{
+    background-color:rgb(249, 245, 245);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 60px;
+    background-image:url(sectionbackground.jpg);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #003049;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+ul.menu-list {
+    list-style: none;
+    text-align: left;
+}
+
+ul.menu-list li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+footer {
+   background-image: url(headerbackground.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
